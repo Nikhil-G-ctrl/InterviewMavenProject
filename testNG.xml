@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="InterviewMavenProject">
+<listeners>
+		<listener class-name="com.imp.utilities.Reporting" />
+	</listeners>
+<test name="Sanity1">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name = "com.imp.TestCases.TC_001_BookingAFlight.java"/>
+</classes>
+</test>
+</suite>
